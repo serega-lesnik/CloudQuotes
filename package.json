@@ -1,0 +1,43 @@
+{
+  "name": "cloudquotes",
+  "version": "1.0.0",
+  "description": "view Cloud Quotes wia public API",
+  "main": "src/index.js",
+  "scripts": {
+    "webpack-dev-server": "webpack-dev-server",
+    "dev": "webpack-dev-server --mode=development",
+    "prod": "webpack --mode=production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/serega-lesnik/CloudQuotes.git"
+  },
+  "author": "Serhii Che",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/serega-lesnik/CloudQuotes/issues"
+  },
+  "homepage": "https://github.com/serega-lesnik/CloudQuotes#readme",
+  "devDependencies": {
+    "@babel/core": "^7.17.9",
+    "@babel/plugin-proposal-class-properties": "^7.16.7",
+    "@babel/plugin-transform-runtime": "^7.17.0",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-react": "^7.16.7",
+    "babel-loader": "^8.2.5",
+    "html-webpack-plugin": "^5.5.0",
+    "path": "^0.12.7",
+    "webpack": "^5.72.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.8.1"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.17.9",
+    "css-loader": "^6.7.1",
+    "file-loader": "^6.2.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-router-dom": "^6.3.0",
+    "style-loader": "^3.3.1"
+  }
+}
